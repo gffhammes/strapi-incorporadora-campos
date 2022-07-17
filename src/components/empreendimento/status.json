@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_empreendimento_statuses",
+  "info": {
+    "displayName": "Status",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Infraestrutura": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "Fundacao": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "Alvenaria": {
+      "type": "integer",
+      "required": false,
+      "default": 0,
+      "min": 0,
+      "max": 100
+    },
+    "Instalacoes": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "max": 100,
+      "min": 0
+    },
+    "Revestimentos": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "max": 100,
+      "min": 0
+    }
+  }
+}

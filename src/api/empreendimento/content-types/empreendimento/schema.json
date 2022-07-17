@@ -1,0 +1,153 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empreendimentos",
+  "info": {
+    "singularName": "empreendimento",
+    "pluralName": "empreendimentos",
+    "displayName": "Empreendimento",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "FotoHome": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Thumb": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Banner": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Nome": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Rua": {
+      "type": "string",
+      "required": true
+    },
+    "Numero": {
+      "type": "string",
+      "required": true
+    },
+    "Bairro": {
+      "type": "string",
+      "required": true
+    },
+    "Cidade": {
+      "type": "string",
+      "required": true
+    },
+    "Area": {
+      "type": "string",
+      "required": true
+    },
+    "Quartos": {
+      "type": "string",
+      "required": true
+    },
+    "QteBlocos": {
+      "type": "integer",
+      "required": true,
+      "default": 1,
+      "min": 1
+    },
+    "QteAndares": {
+      "type": "integer",
+      "required": true,
+      "default": 1,
+      "min": 1
+    },
+    "QteApartamentos": {
+      "type": "integer",
+      "required": true
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Pré lançamento",
+        "Em obras",
+        "Não disponível"
+      ],
+      "required": true
+    },
+    "DescricaoCard": {
+      "type": "text",
+      "required": true
+    },
+    "Galeria": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "TextoPlanta": {
+      "type": "richtext",
+      "required": false
+    },
+    "TextoResumo": {
+      "type": "text",
+      "required": true
+    },
+    "diferenciais": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::diferential.diferential",
+      "inversedBy": "empreendimentos"
+    },
+    "Plantas": {
+      "displayName": "Planta",
+      "type": "component",
+      "repeatable": true,
+      "component": "planta.planta"
+    },
+    "StatusDetalhado": {
+      "type": "component",
+      "repeatable": false,
+      "component": "empreendimento.status",
+      "required": true
+    },
+    "TituloPagina": {
+      "type": "string",
+      "required": true
+    },
+    "TextoPagina": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

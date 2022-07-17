@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_planta_plantas",
+  "info": {
+    "displayName": "Planta"
+  },
+  "options": {},
+  "attributes": {
+    "Foto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "Titulo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
