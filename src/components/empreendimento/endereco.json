@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_empreendimento_enderecos",
+  "info": {
+    "displayName": "Endereço",
+    "icon": "map-marker-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Rua": {
+      "type": "string",
+      "required": true
+    },
+    "Numero": {
+      "type": "string",
+      "required": true
+    },
+    "Bairro": {
+      "type": "string",
+      "required": true
+    },
+    "Cidade": {
+      "type": "string",
+      "required": true
+    },
+    "UF": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

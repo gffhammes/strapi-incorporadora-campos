@@ -148,6 +148,17 @@
     "TextoPagina": {
       "type": "text",
       "required": true
+    },
+    "Endereco": {
+      "type": "component",
+      "repeatable": false,
+      "component": "empreendimento.endereco",
+      "required": false
+    },
+    "Seccoes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "empreendimento.seccoes"
     }
   }
 }

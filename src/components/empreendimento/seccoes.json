@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_empreendimento_seccoes",
+  "info": {
+    "displayName": "Secções",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "Menu": {
+      "type": "boolean",
+      "default": true
+    },
+    "Detalhes": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    },
+    "Plantas": {
+      "type": "boolean",
+      "default": true
+    },
+    "Contato": {
+      "type": "boolean",
+      "default": true
+    },
+    "Diferenciais": {
+      "type": "boolean",
+      "default": true
+    },
+    "Status": {
+      "type": "boolean",
+      "default": true
+    },
+    "Mapa": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
