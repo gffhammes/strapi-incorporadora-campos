@@ -54,22 +54,6 @@
       "required": true,
       "unique": true
     },
-    "Rua": {
-      "type": "string",
-      "required": true
-    },
-    "Numero": {
-      "type": "string",
-      "required": true
-    },
-    "Bairro": {
-      "type": "string",
-      "required": true
-    },
-    "Cidade": {
-      "type": "string",
-      "required": true
-    },
     "Area": {
       "type": "string",
       "required": true
