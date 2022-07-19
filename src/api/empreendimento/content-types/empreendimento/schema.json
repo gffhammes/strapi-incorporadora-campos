@@ -83,7 +83,7 @@
       "enum": [
         "Pré lançamento",
         "Em obras",
-        "Não disponível"
+        "Vendido"
       ],
       "required": true
     },
@@ -143,6 +143,12 @@
       "type": "component",
       "repeatable": false,
       "component": "empreendimento.seccoes"
+    },
+    "Prioridade": {
+      "type": "boolean",
+      "default": false,
+      "required": false,
+      "private": true
     }
   }
 }
