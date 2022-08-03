@@ -17,7 +17,7 @@
     },
     "Bairro": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "Cidade": {
       "type": "string",
