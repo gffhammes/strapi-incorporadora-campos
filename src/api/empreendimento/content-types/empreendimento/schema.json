@@ -144,11 +144,11 @@
       "repeatable": false,
       "component": "empreendimento.seccoes"
     },
-    "Prioridade": {
-      "type": "boolean",
-      "default": false,
-      "required": false,
-      "private": true
+    "Ordem": {
+      "type": "integer",
+      "required": true,
+      "unique": true,
+      "min": 0
     }
   }
 }
