@@ -149,6 +149,32 @@
       "required": true,
       "unique": true,
       "min": 0
+    },
+    "Descricao2": {
+      "type": "richtext",
+      "required": false
+    },
+    "Descricao1": {
+      "type": "richtext",
+      "required": true
+    },
+    "infosCardHome": {
+      "type": "component",
+      "repeatable": false,
+      "component": "empreendimento.card-home",
+      "required": true
+    },
+    "infosCardEmpreendimentos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "empreendimento.card-empreendimentos",
+      "required": true
+    },
+    "texoAzulPaginaInterna": {
+      "type": "component",
+      "repeatable": false,
+      "component": "empreendimento.texto-azul-pagina-interna",
+      "required": true
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_empreendimento_card_homes",
+  "info": {
+    "displayName": "CardHome"
+  },
+  "options": {},
+  "attributes": {
+    "Descricao1": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "Descricao2": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
