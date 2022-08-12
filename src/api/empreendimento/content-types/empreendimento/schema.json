@@ -87,10 +87,6 @@
       ],
       "required": true
     },
-    "DescricaoCard": {
-      "type": "text",
-      "required": true
-    },
     "Galeria": {
       "type": "media",
       "multiple": true,
@@ -102,10 +98,6 @@
     "TextoPlanta": {
       "type": "richtext",
       "required": false
-    },
-    "TextoResumo": {
-      "type": "text",
-      "required": true
     },
     "diferenciais": {
       "type": "relation",
