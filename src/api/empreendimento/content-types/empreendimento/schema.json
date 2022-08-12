@@ -158,12 +158,6 @@
       "type": "richtext",
       "required": true
     },
-    "infosCardHome": {
-      "type": "component",
-      "repeatable": false,
-      "component": "empreendimento.card-home",
-      "required": true
-    },
     "infosCardEmpreendimentos": {
       "type": "component",
       "repeatable": false,
