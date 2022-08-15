@@ -82,7 +82,7 @@
       "type": "enumeration",
       "enum": [
         "Pré lançamento",
-        "Em obras",
+        "Em obra",
         "Vendido"
       ],
       "required": true
