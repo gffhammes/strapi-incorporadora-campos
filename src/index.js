@@ -18,9 +18,3 @@ module.exports = {
    */
   bootstrap(/*{ strapi }*/) {},
 };
-
-const http = require('http');
-
-setInterval(() => {
-  http.get("https://evening-lowlands-86540.herokuapp.com/api/empreendimentos");
-}, 25 * 60 * 1000); // every 25 minutes
