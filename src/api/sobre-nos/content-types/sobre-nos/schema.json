@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "sobre_noss",
+  "info": {
+    "singularName": "sobre-nos",
+    "pluralName": "sobre-noss",
+    "displayName": "sobreNos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nossaHistoria": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sobre-nos.item-linha-do-tempo",
+      "required": true
+    }
+  }
+}

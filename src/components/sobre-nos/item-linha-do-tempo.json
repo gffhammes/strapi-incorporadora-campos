@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sobre_nos_item_linha_do_tempos",
+  "info": {
+    "displayName": "itemLinhaDoTempo"
+  },
+  "options": {},
+  "attributes": {
+    "ano": {
+      "type": "biginteger",
+      "required": true
+    },
+    "texto": {
+      "type": "richtext",
+      "required": true
+    },
+    "foto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
