@@ -41,6 +41,16 @@
     "data": {
       "type": "date",
       "required": true
+    },
+    "relacionados": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-post.blog-post"
+    },
+    "contadorDeViews": {
+      "type": "biginteger",
+      "default": "0",
+      "min": "0"
     }
   }
 }
