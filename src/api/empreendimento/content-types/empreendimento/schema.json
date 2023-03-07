@@ -148,6 +148,10 @@
     "TextoPagina": {
       "type": "text",
       "required": true
+    },
+    "StatusGeral": {
+      "type": "integer",
+      "required": true
     }
   }
 }
