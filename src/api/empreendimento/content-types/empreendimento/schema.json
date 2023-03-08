@@ -161,6 +161,10 @@
       "repeatable": false,
       "component": "empreendimento.texto-azul-pagina-interna",
       "required": true
+    },
+    "StatusGeral": {
+      "type": "integer",
+      "required": true
     }
   }
 }
