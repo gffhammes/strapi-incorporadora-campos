@@ -165,6 +165,14 @@
     "StatusGeral": {
       "type": "integer",
       "required": true
+    },
+    "FotoVideo": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
