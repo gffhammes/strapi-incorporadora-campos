@@ -167,12 +167,21 @@
       "required": true
     },
     "FotoVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
+      ]
+    },
+    "CarrosselPrimeiraSessao": {
+      "allowedTypes": [
+        "images"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true,
+      "required": true
     }
   }
 }
