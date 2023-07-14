@@ -176,12 +176,17 @@
       ]
     },
     "CarrosselPrimeiraSessao": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mosaico": {
+      "type": "component",
+      "repeatable": false,
+      "component": "empreendimento.mosaico"
     }
   }
 }
