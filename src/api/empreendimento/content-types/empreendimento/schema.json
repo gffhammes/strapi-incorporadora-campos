@@ -186,7 +186,8 @@
     "mosaico": {
       "type": "component",
       "repeatable": false,
-      "component": "empreendimento.mosaico"
+      "component": "empreendimento.mosaico",
+      "required": true
     }
   }
 }
