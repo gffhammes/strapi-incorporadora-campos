@@ -34,7 +34,14 @@
       "max": 100,
       "min": 0
     },
-    "Revestimentos": {
+    "Acabamentos": {
+      "type": "integer",
+      "required": true,
+      "default": 0,
+      "max": 100,
+      "min": 0
+    },
+    "ProjetosEAprovacoes": {
       "type": "integer",
       "required": true,
       "default": 0,
